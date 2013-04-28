@@ -1,0 +1,41 @@
+/* ==========================================================================
+   Media Queries - Angaben ohne Gewähr
+   ========================================================================== */
+
+/*** Normale PCs, Laptops etc. ***/
+@media only screen and (min-width: 950px) {
+	.wrapper {
+		min-width:900px;
+		width: 900px;
+	}
+}
+
+
+/***  Netbooks ***/
+@media only screen and (min-width: 450px) and 
+  (max-width: 950px) {
+	.wrapper {
+		min-width: 75%;
+		width: 75%;
+	}
+}
+
+/*** Smartphones ***/
+@media only screen and (max-width: 450px) {
+	.wrapper {
+		min-width: 100%;
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}

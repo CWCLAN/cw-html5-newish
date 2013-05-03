@@ -7,7 +7,7 @@
  */
  
 body {
-	background:url('../img/design/squairy_light.png');
+	background:url('../img/design/bgr.jpg');
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 }
@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5,h6 {
 	text-shadow: 0 0 2px #ccc;
 }
 p {
-	color: #555;
+	color: #333;
 	line-height: 1.4;
 }
 .c_orange {
@@ -40,7 +40,7 @@ p {
 	height: 50px;
 	width: 100%;
 	margin-bottom: 20px;
-	background: #efefef;
+	background: #efebdf;
 	box-shadow: 0 0 8px #888;
 	font-family: 'Oswald', sans-serif;
 	text-shadow: 0 0 2px #ccc;
@@ -179,6 +179,7 @@ p {
 	color: #aaa;
 	font-size: 14px;
 	cursor: pointer;
+	vertical-align:middle;
 }
 .icons:hover {
 	color: #888;
@@ -202,7 +203,7 @@ article p {
 }
 article .article_submenu {
 	font-size: 16px;
-	color: #555;
+	color: #333;
 	padding: 0 7px;
 	margin: 0 5px;
 	border-bottom: solid thin #ccc;

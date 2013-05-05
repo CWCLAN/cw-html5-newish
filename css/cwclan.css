@@ -100,10 +100,7 @@ p {
 	text-align: center;
 }
 .sidebar {
-	margin-right: 2%;
 	min-height: 200px;
-	width: 27%;
-	float: right;
 	border-top-left-radius: 4px;
 }
 .sidebar_left {
@@ -140,14 +137,8 @@ p {
 	background: url('../img/design/agsquare.png');	
 	position: relative;
 	z-index:0;
-	border-left: solid thin #555;
-	border-right: solid thin #555;
-	float: left;
-	width: 65%;
-	margin-left: 2%;
 	min-height: 200px;
-	padding: 0 6px;
-	box-shadow: 0 0 5px #555;
+	padding: 1px 6px;
 }
 .footer {
 	position: relative;
@@ -187,7 +178,8 @@ p {
 /*** Tuning ***/
 
 article {
-	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 article h3 {
 	font-family: 'Oswald', sans-serif;

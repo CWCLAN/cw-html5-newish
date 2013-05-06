@@ -90,7 +90,17 @@ p {
 	color: #eee;
 }
 .navbar .nav>li:hover {
-	background:#ef9849;
+	background:none;
+}
+.navbar-inverse .btn-navbar {
+	background: #333;
+	margin-top: 3px;
+}
+.navbar-inverse .btn-navbar:hover {
+	background: #222;
+}
+.navbar-inverse .nav-collapse .nav>li>a:hover, .navbar-inverse .nav-collapse .nav>li>a:focus, .navbar-inverse .nav-collapse .dropdown-menu a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+	background: #ef9849;
 }
 .welcome {
 	

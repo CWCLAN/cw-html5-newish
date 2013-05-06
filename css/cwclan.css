@@ -34,6 +34,7 @@ p {
 	}
 /*** Layout ***/
 .topbar {
+	left:0;
 	top:0;
 	position: fixed;
 	z-index:99;
@@ -67,27 +68,29 @@ p {
 	
 	border-radius: 4px;
 }
-.navigation {
+.navbar {
 	position: relative;
-	z-index:5;
-	height: 40px;
-	width: 100%;
+	z-index: 98;
+	margin-bottom:0;
+}
+.navbar-inverse .navbar-inner {
 	background: #444;
+}
+.navbar-inner {
+	min-height: 35px;
 	color: #efefef;
+	border: none;
+	border-radius: 0px;
 }
-.navigation ul {
-	margin:0;
+.navbar .nav>li>a {
+	text-shadow: none;
+	color: #eee;
 }
-.navigation ul li {
-	float: left;
-	line-height: 40px;
-	list-style:none;
-	padding: 0 10px;
-	cursor: pointer;
-	transition: ease-in all 0.2s;
+.navbar .nav>li>a:hover {
+	color: #eee;
 }
-.navigation ul li:hover {
-	background: #ef9849;
+.navbar .nav>li:hover {
+	background:#ef9849;
 }
 .welcome {
 	

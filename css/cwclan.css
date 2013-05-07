@@ -250,3 +250,39 @@ article .article_submenu .author {
 	line-height: 1;
 	font-size: 16px;
 }
+
+/* FORUM PANEL */
+.infusion_forum {
+	margin-top: 15px;
+}
+.infusion_forum .table {
+	font-size: 16px;
+	border: solid thin #ccc;
+}
+.infusion_forum .table .forum {
+	font-weight: 800;
+}
+.infusion_forum .table .topic {
+	color: #ef9849;
+}
+.infusion_forum .table th {
+	text-align: center;
+	color: #ef9849;
+	font-weight: 400;
+	font-size: 16px;
+	font-family: 'Oswald', sans-serif;
+}
+.infusion_forum .table td {
+	vertical-align: middle;
+	text-align: center;
+	font-size: 15px;
+}
+.infusion_forum .table a {
+	color: #ef9849;
+}
+.infusion_forum .table td:nth-child(2) {
+	text-align: left;
+}
+.infusion_forum .table th:nth-child(2) {
+	text-align: left;
+}

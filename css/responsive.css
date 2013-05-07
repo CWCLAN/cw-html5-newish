@@ -23,7 +23,10 @@
 		margin-right: 2%;
 	}
 	.nav-collapse ul {
-		padding:0;
+		padding-left: -1px;
+		padding-right:0;
+		padding-top:0;
+		padding-bottom:0;
 	}
 	.nav li ul li:first-child a {
 		border-top-left-radius: 5px;

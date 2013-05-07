@@ -3,7 +3,8 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Tim Kopplow -- Developer -- @timkopplow -- www.timkopplow.com
+    Philipp Horna -- Developer -- -/- -- www.cwclan.de
 
 # THANKS
 
@@ -12,4 +13,4 @@
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Modernizr, Bootstrap

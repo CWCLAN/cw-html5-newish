@@ -11,6 +11,12 @@ body {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 }
+a {
+	color:#ef9849;
+}
+a:hover {
+	color:#ef9849;
+}
 .clearfix:before,.clearfix:after{
 	content:" ";display:table;
 }
@@ -125,6 +131,9 @@ p {
 .navi_hint a:hover {
 	cursor: pointer;
 }
+.dropdown-menu>li>a {
+	padding: 7px 20px;
+}
 .welcome {
 	
 }
@@ -215,7 +224,10 @@ p {
 
 article {
 	margin-top: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
+}
+article:last-child {
+	margin-bottom: 30px;
 }
 article h3 {
 	font-family: 'Oswald', sans-serif;
@@ -242,7 +254,9 @@ article .article_submenu .comments {
 article .article_submenu .author {
 	float: left;
 }
-
+.pagination .menu, ol, ul {
+	padding: 0;
+} 
 /*** Potential Infusion Styles ***/
 
 .sidebar .box .image_box {
@@ -258,9 +272,10 @@ article .article_submenu .author {
 .infusion_forum .table {
 	font-size: 16px;
 	border: solid thin #ccc;
+	box-shadow: 0 0 2px #ccc;
 }
 .infusion_forum .table .forum {
-	font-weight: 800;
+	font-weight: 300;
 }
 .infusion_forum .table .topic {
 	color: #ef9849;

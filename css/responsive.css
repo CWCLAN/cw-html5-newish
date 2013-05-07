@@ -25,6 +25,14 @@
 	.nav-collapse ul {
 		padding:0;
 	}
+	.nav li ul li:first-child a {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+	}
+	.nav li ul li:last-child a {
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
 	
 	/** To not show an element on a certain device/resolution **/
 	.no-mobile {
@@ -65,6 +73,12 @@
 	.nav-collapse ul {
 		padding:5px 0;
 	}
+	.nav li ul li:first-child a {
+		border-radius: 3px;
+	}
+	.nav li ul li:last-child a {
+		border-radius: 3px;
+	}
 	
 	/** To not show an element on a certain device/resolution **/
 	.no-mobile {
@@ -102,6 +116,12 @@
 	}
 	.nav-collapse ul {
 		padding:5px 0;
+	}
+	.nav li ul li:first-child a {
+		border-radius: 3px;
+	}
+	.nav li ul li:last-child a {
+		border-radius: 3px;
 	}
 	
 	/** To not show an element on a certain device/resolution **/

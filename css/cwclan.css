@@ -95,12 +95,35 @@ p {
 .navbar-inverse .btn-navbar {
 	background: #333;
 	margin-top: 3px;
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 .navbar-inverse .btn-navbar:hover {
 	background: #222;
 }
 .navbar-inverse .nav-collapse .nav>li>a:hover, .navbar-inverse .nav-collapse .nav>li>a:focus, .navbar-inverse .nav-collapse .dropdown-menu a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:focus {
 	background: #ef9849;
+	color: #fff;
+}
+.nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
+	font-weight: 400;
+}
+.nav li ul li a:hover {
+	color: #fff;
+}
+.navi_hint {
+	text-align: center;
+	padding-top: 4px;
+}
+.navi_hint a {
+	color: #fff;
+	margin-left:auto;
+	margin-top:auto;
+	text-align: center;
+}
+.navi_hint a:hover {
+	cursor: pointer;
 }
 .welcome {
 	

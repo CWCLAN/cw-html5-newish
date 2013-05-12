@@ -58,12 +58,18 @@ p {
     color: #ababab;
     line-height: 48px;
     font-size: 28px;
+    float:left;
 }
 .topbar .subtitle {
     color: #ef9849;
     line-height: 38px;
+    font-size: 18px;
 }
-
+.topbar .login {
+    float: right;
+    margin-right: 10%;
+    line-height: 55px;
+}
 .wrapper {
     margin-top:100px;
     margin-left: auto;

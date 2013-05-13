@@ -48,6 +48,15 @@
 		visibility:hidden;
 		display: none;
 	}
+    .show-mobile {
+        visibility:hidden;
+    }
+    .show-tabletbook {
+        visibility:hidden;
+    }
+    .show-pc {
+        visibility:visible;
+    }
 }
 
 
@@ -94,6 +103,15 @@
 	.no-pc {
 		visibility:visible;
 	}
+    .show-mobile {
+        visibility:hidden;
+    }
+    .show-tabletbook {
+        visibility:visible;
+    }
+    .show-pc {
+        visibility:hidden;
+    }
 }
 
 /*** Smartphones ***/
@@ -138,6 +156,15 @@
 	.no-pc {
 		visibility:visible;
 	}
+    .show-mobile {
+        visibility:visible;
+    }
+    .show-tabletbook {
+        visibility:hidden;
+    }
+    .show-pc {
+        visibility:hidden;
+    }
 }
 
 

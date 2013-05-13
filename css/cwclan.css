@@ -1,15 +1,30 @@
-/*		
- *		cwclan.de - cascade style sheet
- *		
- *		humans:
- *		last changed:
- *		
+/*!
+ * CWClan HTML5 Theme for PHP-Fusion
+ * Version: 0.2
+ *
+ * Copyright 2013 CWClan
+ * Licensed -/-
+ * 
+ * Homepage: http://www.cwclan.de
+ * Source: https://github.com/ununseptium/cwclan-html5-newish
+ * 
+ * made by ununseptium@github and globeFrEak@github
  */
 
+
+
+
+
+/***/
+/*** Globals & Helpers ***/
+/***/
 body {
     background:url('../img/design/bgr.jpg');
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 18px;
+}
+::selection {
+    background: #ef9849; 
 }
 a {
     color:#ef9849;
@@ -38,7 +53,28 @@ p {
 .c_orange {
     color: #ef9849;
 }
+/***/
+/*** CWClan Buttons ***/
+/***/
+.cw-btn {
+    box-shadow: 0 1px 3px #999;
+    color: #fbfbfb;
+    border: solid thin rgba(255,175,75,1);
+    border-radius: 3px;
+    background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    font-weight:300;
+}
+.cw-btn:hover {
+}
+.cw-btn:active {
+    box-shadow: inset 0 1px 3px #555;
+}
+
+/***/
 /*** Layout ***/
+/***/
 .topbar {
     left:0;
     top:0;
@@ -68,7 +104,6 @@ p {
 .topbar .login {
     float: right;
     margin-right: 10%;
-    line-height: 55px;
 }
 .wrapper {
     margin-top:100px;
@@ -79,6 +114,134 @@ p {
     background:url('../img/design/bg_content.png');
 
     border-radius: 4px;
+}
+.welcome {}
+.welcome h3 {
+    margin-bottom: 0;
+    color: #ef9849;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+.sidebar {
+    min-height: 200px;
+    border-top-left-radius: 4px;
+}
+.sidebar_left {}
+.sidebar_right {}
+.sidebar .box {
+    margin-top: 20px;
+    box-shadow: 0 0 5px #555;
+}
+.sidebar .box h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #efefef;
+    font-weight: 500;
+    padding: 0px 10px;
+    line-height:1.7;
+    background: #444;
+    margin:0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-left: solid thin #444;
+    border-right: solid thin #444;
+    border-top: solid thin #444;
+}
+.sidebar .box p,.sidebar .box .sidebar_div {
+    background: url('../img/design/agsquare.png');	
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 0;
+    text-align: justify;
+    font-size:16px;
+}
+.sidebar .box .sidebar_div {
+    margin-bottom: 16px;
+}
+.content {
+    background: url('../img/design/agsquare.png');	
+    position: relative;
+    z-index:0;
+    min-height: 200px;
+    padding: 1px 6px;
+}
+.footer {
+    position: relative;
+    z-index:5;
+    color: #efefef;
+    background: #444;
+    padding: 10px 15px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.breadcrumb {
+    color: #efefef;
+    background: #444;
+    padding: 7px 15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-bottom:0;
+}
+.hero {
+    height: 200px;
+    width: 100%;
+    background:url('../img/specials/hero_01.png') center no-repeat #444;
+}
+.icons {
+    color: #aaa;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align:middle;
+}
+.icons:hover {
+    color: #888;
+}
+article {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article:last-child {
+    margin-bottom: 30px;
+}
+article h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #ef9849;
+    line-height: 48px;
+    font-size: 28px;
+    margin:0 10px;
+}
+article p {
+    margin:0;
+    padding: 5px;
+}
+article .article_submenu {
+    font-size: 16px;
+    color: #333;
+    padding: 0 7px;
+    margin: 0 5px;
+    border-bottom: solid thin #ccc;
+}
+article .article_submenu .comments {
+    float: right;
+}
+article .article_submenu .author {
+    float: left;
+}
+.pagination .menu, ol, ul {
+    padding: 0;
+}
+/***/
+/*** Bootstrap Custom Navbar & Topbar ***/
+/***/
+.topbar .login input[type=text], input[type=password] {
+    margin-top: 10px;
+}
+.topbar .login input[type=submit] {
+    margin-top: 0;
 }
 .navbar {
     position: relative;
@@ -140,134 +303,9 @@ p {
 .dropdown-menu>li>a {
     padding: 7px 20px;
 }
-.welcome {
-
-}
-.welcome h3 {
-    margin-bottom: 0;
-    color: #ef9849;
-    font-size: 32px;
-    font-weight: 500;
-    text-align: center;
-}
-.sidebar {
-    min-height: 200px;
-    border-top-left-radius: 4px;
-}
-.sidebar_left {
-}
-.sidebar_right {
-}
-.sidebar .box {
-    margin-top: 20px;
-    box-shadow: 0 0 5px #555;
-}
-.sidebar .box h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    color: #efefef;
-    font-weight: 500;
-    padding: 0px 10px;
-    line-height:1.7;
-    background: #444;
-    margin:0;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-left: solid thin #444;
-    border-right: solid thin #444;
-    border-top: solid thin #444;
-}
-.sidebar .box p,.sidebar .box .sidebar_div {
-    background: url('../img/design/agsquare.png');	
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    padding: 5px 10px;
-    margin-top: 0;
-    text-align: justify;
-    font-size:16px;
-}
-.sidebar .box .sidebar_div {
-    margin-bottom: 16px;
-}
-.content {
-    background: url('../img/design/agsquare.png');	
-    position: relative;
-    z-index:0;
-    min-height: 200px;
-    padding: 1px 6px;
-}
-.footer {
-    position: relative;
-    z-index:5;
-    color: #efefef;
-    background: #444;
-    padding: 10px 15px;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
-
-/*** MISC ***/
-.breadcrumb {
-    color: #efefef;
-    background: #444;
-    padding: 7px 15px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    margin-bottom:0;
-}
-.hero {
-    height: 200px;
-    width: 100%;
-    background:url('../img/specials/hero_01.png') center no-repeat #444;
-}
-.icons {
-    color: #aaa;
-    font-size: 14px;
-    cursor: pointer;
-    vertical-align:middle;
-}
-.icons:hover {
-    color: #888;
-}
-/*** Tuning ***/
-
-article {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-article:last-child {
-    margin-bottom: 30px;
-}
-article h3 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 500;
-    color: #ef9849;
-    line-height: 48px;
-    font-size: 28px;
-    margin:0 10px;
-}
-article p {
-    margin:0;
-    padding: 5px;
-}
-article .article_submenu {
-    font-size: 16px;
-    color: #333;
-    padding: 0 7px;
-    margin: 0 5px;
-    border-bottom: solid thin #ccc;
-}
-article .article_submenu .comments {
-    float: right;
-}
-article .article_submenu .author {
-    float: left;
-}
-.pagination .menu, ol, ul {
-    padding: 0;
-} 
+/***/
 /*** Potential Infusion Styles ***/
+/***/
 
 .sidebar .box .image_box {
     text-align: center;

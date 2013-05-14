@@ -135,8 +135,6 @@ p {
     margin:0 auto;
 }
 .logged_in_box {
-    margin-top: 5px;
-    width: 200px;
     height: 40px;   
 }
 .logged_in_box .user_avatar {

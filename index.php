@@ -92,6 +92,9 @@ else {
                     </div>
                     <div class="no-pc"> <!-- Mobile / Tabletbook Resolution Login -->
                         <div class="responsive-login">
+<?php if(!isset($_GET['login_state']))
+{
+    echo '
                             <div class="login-box-r">
                             <table class="table table-condensed">
                                 <tr>
@@ -124,6 +127,28 @@ else {
                                 </tr>
                             </table>
                             </div>
+                            ';
+}
+else {
+    echo '              <div class="logged_in_box">
+                            <div style="width: 75%;margin:0 auto;">
+                                <div class="user_avatar">
+                                    <a href="#"><img src="img/content/useravatar_small_nevo.png" class="tp" data-toggle="tooltip" title="Zu deinem Profil" width="40"></a>
+                                </div>
+                                <div class="user_login_content">
+                                    <div><a href="#">nevo</a></div>
+                                    <div class="user_login_icons">
+                                        <a href="#" class="tp" data-toggle="tooltip" title="Einstellungen"><span class="icon-cog"></span></a> 
+                                        | 
+                                        <a href="#" class="tp" data-toggle="tooltip" title="Nachrichten"><span class="icon-envelop"></span></a>
+                                        | 
+                                        <a href="#" class="tp" data-toggle="tooltip" title="Logout"><span class="icon-switch"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>';
+}
+?>
                         </div>
                     </div>
                 </div>

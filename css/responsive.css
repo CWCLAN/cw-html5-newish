@@ -44,6 +44,9 @@
         margin-top: 10px;
         width: 100px;
     }
+    .logged_in_box {
+        margin-top: 5px;   
+    }
 	
 	/** To not show an element on a certain device/resolution **/
 	.no-mobile {
@@ -104,6 +107,10 @@
     .topbar .login input[type=text], input[type=password] {
         margin-top: 10px;
     }
+    .logged_in_box {
+        margin-top: 0;  
+        margin-bottom: 10px; 
+    }
 	
 	/** To not show an element on a certain device/resolution **/
 	.no-mobile {
@@ -161,6 +168,10 @@
     }
     .topbar .login input[type=text], input[type=password] {
         margin-top: 10px;
+    }
+    .logged_in_box {
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 	
 	/** To not show an element on a certain device/resolution **/

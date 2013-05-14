@@ -36,6 +36,14 @@
 		border-bottom-left-radius: 5px;
 		border-bottom-right-radius: 5px;
 	}
+    .topbar .login {
+        float: right;
+        margin-right: 10%;
+    }
+    .topbar .login input[type=text], input[type=password] {
+        margin-top: 10px;
+        width: 100px;
+    }
 	
 	/** To not show an element on a certain device/resolution **/
 	.no-mobile {
@@ -61,7 +69,7 @@
 
 
 /***  Netbooks ***/
-@media only screen and (min-width: 450px) and 
+@media only screen and (min-width: 480px) and 
   (max-width: 950px) {
 	.wrapper {
 		min-width: 75%;
@@ -91,6 +99,11 @@
 	.nav li ul li:last-child a {
 		border-radius: 3px;
 	}
+    .topbar .login {
+    }
+    .topbar .login input[type=text], input[type=password] {
+        margin-top: 10px;
+    }
 	
 	/** To not show an element on a certain device/resolution **/
 	.no-mobile {
@@ -115,7 +128,7 @@
 }
 
 /*** Smartphones ***/
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
 	.wrapper {
 		min-width: 98%;
 		width: 98%;
@@ -144,6 +157,11 @@
 	.nav li ul li:last-child a {
 		border-radius: 3px;
 	}
+    .topbar .login {
+    }
+    .topbar .login input[type=text], input[type=password] {
+        margin-top: 10px;
+    }
 	
 	/** To not show an element on a certain device/resolution **/
 	.no-mobile {

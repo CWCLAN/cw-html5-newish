@@ -26,6 +26,9 @@ body {
 ::selection {
     background: #ef9849; 
 }
+.tp {
+    font-family: 'Open Sans', sans-serif;
+}
 a {
     color:#ef9849;
 }
@@ -130,6 +133,29 @@ p {
 .responsive-login .login-box-r {
     width: 75%;
     margin:0 auto;
+}
+.logged_in_box {
+    margin-top: 5px;
+    width: 200px;
+    height: 40px;   
+}
+.logged_in_box .user_avatar {
+    float: left;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.logged_in_box .user_login_content {
+    float: left;
+    font-size: 16px;
+    width: 150px;
+}
+.logged_in_box .user_login_content .user_login_icons {
+    font-size: 13px;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+}
+.logged_in_box .user_login_content .user_login_icons a:link {
+    color: #444;
 }
 .wrapper {
     margin-top:100px;

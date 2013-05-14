@@ -2380,9 +2380,9 @@ table th[class*="span"],
 .icon-signal {
   background-position: -408px 0;
 }
-
+/*** disabled ***/
 .icon-cog {
-  background-position: -432px 0;
+  background-position: none;
 }
 
 .icon-trash {

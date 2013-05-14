@@ -101,9 +101,34 @@ p {
     line-height: 38px;
     font-size: 18px;
 }
-.topbar .login {
-    float: right;
-    margin-right: 10%;
+.topbar .btn-navbar {
+    background:#e5deca;
+}
+.topbar .btn-navbar:hover {
+    background:#efebdf;
+}
+.login-info {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding-left: 5px;
+    margin-top: -10px;
+    font-size: 12px;
+}
+.responsive-login {
+    z-index:98;
+    position:static;
+    top:50px;
+    left:0px;
+    background: #efebdf;
+    box-shadow: 0 0 8px #888;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 2px #ccc;
+    border-bottom: solid thin #ccc;
+    width: 100%;
+}
+.responsive-login .login-box-r {
+    width: 75%;
+    margin:0 auto;
 }
 .wrapper {
     margin-top:100px;
@@ -237,9 +262,6 @@ article .article_submenu .author {
 /***/
 /*** Bootstrap Custom Navbar & Topbar ***/
 /***/
-.topbar .login input[type=text], input[type=password] {
-    margin-top: 10px;
-}
 .topbar .login input[type=submit] {
     margin-top: 0;
 }

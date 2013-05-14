@@ -20,8 +20,9 @@
 /***/
 body {
     background:url('../img/design/bgr.jpg');
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+    font-size: 14px;
 }
 ::selection {
     background: #ef9849; 
@@ -185,6 +186,7 @@ p {
 }
 .sidebar .box h3 {
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
     color: #efefef;
     font-weight: 500;
     padding: 0px 10px;
@@ -204,7 +206,7 @@ p {
     padding: 5px 10px;
     margin-top: 0;
     text-align: justify;
-    font-size:16px;
+    font-size:13px;
 }
 .sidebar .box .sidebar_div {
     margin-bottom: 16px;
@@ -261,7 +263,7 @@ article h3 {
     font-weight: 500;
     color: #ef9849;
     line-height: 48px;
-    font-size: 28px;
+    font-size: 26px;
     margin:0 10px;
 }
 article p {
@@ -269,7 +271,7 @@ article p {
     padding: 5px;
 }
 article .article_submenu {
-    font-size: 16px;
+    font-size: 14px;
     color: #333;
     padding: 0 7px;
     margin: 0 5px;
@@ -291,9 +293,11 @@ article .article_submenu .author {
     margin-top: 0;
 }
 .navbar {
+    font-family: 'Open Sans Condensed', sans-serif;
     position: relative;
     z-index: 98;
     margin-bottom:0;
+    font-size: 18px;
 }
 .navbar-inverse .navbar-inner {
     background: #444;
@@ -364,7 +368,7 @@ article .article_submenu .author {
     margin-top: 15px;
 }
 .infusion_forum .table {
-    font-size: 16px;
+    font-size: 13px;
     border: solid thin #ccc;
     box-shadow: 0 0 2px #ccc;
 }
@@ -378,13 +382,12 @@ article .article_submenu .author {
     text-align: center;
     color: #ef9849;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Oswald', sans-serif;
 }
 .infusion_forum .table td {
     vertical-align: middle;
     text-align: center;
-    font-size: 15px;
 }
 .infusion_forum .table a {
     color: #ef9849;

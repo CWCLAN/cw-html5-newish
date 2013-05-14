@@ -264,7 +264,7 @@ else {
                             weiteres findet ihr unter <a href="#">mehr lesen...</a>
                         </p>
                     </article>
-
+                    <br><br><br>
                     <div class="pagination pagination-centered">
                         <ul>
                             <li class="disabled"><a href="#" title="Vorherige Seite">&laquo;</a></li>

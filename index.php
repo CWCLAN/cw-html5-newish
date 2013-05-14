@@ -138,11 +138,7 @@ else {
                                 <div class="user_login_content">
                                     <div><a href="#">nevo</a></div>
                                     <div class="user_login_icons">
-                                        <a href="#" class="tp" data-toggle="tooltip" title="Einstellungen"><span class="icon-cog"></span></a> 
-                                        | 
-                                        <a href="#" class="tp" data-toggle="tooltip" title="Nachrichten"><span class="icon-envelop"></span></a>
-                                        | 
-                                        <a href="#" class="tp" data-toggle="tooltip" title="Logout"><span class="icon-switch"></span></a>
+                                        <a href="#" class="tp" data-toggle="tooltip" title="Einstellungen"><span class="icon-cog"></span></a>&nbsp;|&nbsp;<a href="#" class="tp" data-toggle="tooltip" title="Nachrichten"><span class="icon-envelop"></span></a>&nbsp;|&nbsp;<a href="#" class="tp" data-toggle="tooltip" title="Logout"><span class="icon-switch"></span></a>
                                     </div>
                                 </div>
                             </div>

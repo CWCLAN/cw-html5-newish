@@ -241,7 +241,7 @@ footer {
     margin-bottom:20px;    
     background: #efebdf;		
     border-radius: 4px;	
-    box-shadow: 0 0 10px #777;
+    box-shadow: 0 0 10px #999;
 }
 .links-section h4 {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -266,6 +266,7 @@ footer {
 .links-section li:hover {    
     padding-left: 10px;
     -webkit-transition: all 0.5s ease-in-out;
+    text-shadow: 0 0 2px #ccc;
 }
 .links-section ul {	
     margin: 0;   	

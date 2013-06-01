@@ -20,7 +20,7 @@
 /***/
 body {
     background:url('../img/design/bgr.jpg');
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight:300;
     font-size: 14px;
 }
@@ -28,7 +28,7 @@ body {
     background: #ef9849; 
 }
 .tp {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 a {
     color:#ef9849;
@@ -67,7 +67,7 @@ p {
     border-radius: 3px;
     background: rgba(255,175,75,1);
     background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 15px;
     font-weight:300;
 }
@@ -91,7 +91,6 @@ p {
     background: #efebdf;
     box-shadow: 0 0 8px #888;
     font-family: 'Oswald', sans-serif;
-    text-shadow: 0 0 2px #ccc;
     border-bottom: solid thin #ccc;
 }
 .topbar .title {
@@ -100,11 +99,15 @@ p {
     line-height: 48px;
     font-size: 28px;
     float:left;
+    font-weight:400;
+    text-shadow: 0 0 2px #ccc;
 }
 .topbar .subtitle {
     color: #ef9849;
     line-height: 38px;
     font-size: 18px;
+    font-weight:400;
+    text-shadow: 0 0 2px #ccc;
 }
 .topbar .btn-navbar {
     background:#e5deca;
@@ -113,7 +116,7 @@ p {
     background:#efebdf;
 }
 .login-info {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     padding-left: 5px;
     margin-top: -10px;
@@ -141,7 +144,7 @@ p {
 .logged_in_box .user_avatar {
     float: left;
     margin-right: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .logged_in_box .user_login_content {
     float: left;
@@ -151,7 +154,7 @@ p {
 .logged_in_box .user_login_content .user_login_icons {
     font-size: 13px;
     color: #444;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .logged_in_box .user_login_content .user_login_icons a:link {
     color: #444;
@@ -163,8 +166,7 @@ p {
     margin-bottom: 20px;
     box-shadow: 0 0 10px #777;
     background:url('../img/design/bg_content.png');
-
-    border-radius: 4px;
+    border-radius: 3px;
 }
 .welcome {}
 .welcome h3 {
@@ -185,7 +187,7 @@ p {
     box-shadow: 0 0 5px #555;
 }
 .sidebar .box h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 18px;
     color: #efefef;
     font-weight: 500;
@@ -240,11 +242,11 @@ footer {
     margin-right: 20px;
     margin-bottom:20px;    
     background: #efebdf;		
-    border-radius: 4px;	
+    border-radius: 3px;	
     box-shadow: 0 0 10px #999;
 }
 .links-section h4 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: normal;
     font-size: 20px;
     color: #ababab;    
@@ -272,6 +274,7 @@ footer {
     margin: 0;   	
 }
 .breadcrumb {
+    font-family: 'Roboto Condensed', sans-serif;
     color: #efefef;
     background: #444;
     padding: 7px 15px;
@@ -280,6 +283,7 @@ footer {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     margin-bottom:0;
+    font-weight:300;
 }
 .hero {
     height: 200px;
@@ -337,7 +341,7 @@ article .article_submenu .author {
     margin-top: 0;
 }
 .navbar {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     position: relative;
     z-index: 98;
     margin-bottom:0;
@@ -345,6 +349,8 @@ article .article_submenu .author {
 }
 .navbar-inverse .navbar-inner {
     background: #444;
+    font-weight:300;
+    font-size:15px;
 }
 .navbar-inner {
     min-height: 35px;
@@ -377,7 +383,6 @@ article .article_submenu .author {
     color: #fff;
 }
 .nav-collapse .nav>li>a, .nav-collapse .dropdown-menu a {
-    font-weight: 400;
 }
 .nav li ul li a:hover {
     color: #fff;
@@ -395,8 +400,9 @@ article .article_submenu .author {
 .navi_hint a:hover {
     cursor: pointer;
 }
-.dropdown-menu>li>a {
+.dropdown-menu > li > a {
     padding: 7px 20px;
+    font-weight: 300;
 }
 /***/
 /*** Potential Infusion Styles ***/

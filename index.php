@@ -133,12 +133,12 @@ else {
     echo '              <div class="logged_in_box">
                             <div style="width: 75%;margin:0 auto;">
                                 <div class="user_avatar">
-                                    <a href="#"><img src="img/content/useravatar_small_nevo.png" class="tp" data-toggle="tooltip" title="Zu deinem Profil" width="40"></a>
+                                    <a href="#"><img src="img/content/useravatar_small_nevo.png" class="tp2" data-toggle="tooltip" title="Zu deinem Profil" width="40"></a>
                                 </div>
                                 <div class="user_login_content">
                                     <div><a href="#">nevo</a></div>
                                     <div class="user_login_icons">
-                                        <a href="#" class="tp" data-toggle="tooltip" title="Einstellungen"><span class="icon-cog"></span></a>&nbsp;|&nbsp;<a href="#" class="tp" data-toggle="tooltip" title="Nachrichten"><span class="icon-envelop"></span></a>&nbsp;|&nbsp;<a href="#" class="tp" data-toggle="tooltip" title="Logout"><span class="icon-switch"></span></a>
+                                        <a href="#" class="tp2" data-toggle="tooltip" title="Einstellungen"><span class="icon-cog"></span></a>&nbsp;|&nbsp;<a href="#" class="tp2" data-toggle="tooltip" title="Nachrichten"><span class="icon-envelop"></span></a>&nbsp;|&nbsp;<a href="#" class="tp2" data-toggle="tooltip" title="Logout"><span class="icon-switch"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -329,6 +329,11 @@ else {
         <script> 
             $('.tp').tooltip({
             placement : 'bottom'
+            });
+        </script>
+        <script> 
+            $('.tp2').tooltip({
+            placement : 'right'
             });
         </script>
         <!-- INCLUDE GOOGLE ANALYTICS -->

@@ -378,6 +378,8 @@ article .article_submenu .author {
 .navbar-inverse .btn-navbar:hover {
     background: #222;
 }
+.nav-collapse, .nav-collapse.collapse {
+}
 .navbar-inverse .nav-collapse .nav>li>a:hover, .navbar-inverse .nav-collapse .nav>li>a:focus, .navbar-inverse .nav-collapse .dropdown-menu a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:focus {
     background: #ef9849;
     color: #fff;
